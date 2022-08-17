@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body{
+    margin-left:5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    background-color: rgb(15, 7, 20);
+    color: rgb(200, 196, 196);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}   
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50rem;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1.3rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(200, 196, 196);
+}
+
+.get-intouch{
+    background: rgba(87, 25, 120, 0.96);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero-section{
+    display: flex;
+    gap:5rem;
+    margin-top: 5rem;
+}
+.hero-section strong{
+    color: rgba(87, 25, 120, 0.96);
+}
+.hero{
+    width: 50%;
+}
+.hero h1{
+    font-size: 3rem;
+}
+.hero p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: rgb(166, 164, 164);
+}
+.hero button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+    background: rgba(87, 25, 120, 0.96);
+    color: white;
+    outline: none;
+    border: none;
+}
+.hero img{
+    width: 100%;
+}
