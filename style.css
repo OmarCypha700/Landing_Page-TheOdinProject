@@ -101,6 +101,25 @@ footer a{
     color: rgba(87, 25, 120, 0.96);
 } 
 
+.calltoaction{
+    width: 100%;
+    background-color: rgba(87, 25, 120, 0.96);
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.calltoaction button{
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+
+    background: rgb(15, 7, 20);
+    color: white;
+    border: none;
+}
+
 /* Hamvurger menu */
 
 .hamburger{
@@ -188,7 +207,7 @@ footer a{
     .links{
         display: flex;
         justify-content: flex-end;
-        margin-left: 9rem;
+        margin-left: 10rem;
         align-items: center;
         gap: 1rem;
         font-size: 1.2rem;
@@ -210,6 +229,7 @@ footer a{
         border: none;
         padding: 10px;
         border-radius: 10px;
+        text-align: center;
     }
     
     .hero-section{
@@ -287,6 +307,30 @@ footer a{
     footer a{
         color: rgba(87, 25, 120, 0.96);
     } 
+
+    .hamburger{
+        display: none;
+    }
+
+    .calltoaction{
+        width: 100%;
+        background-color: rgba(87, 25, 120, 0.96);
+        padding: 2rem;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+    
+    .calltoaction button{
+        padding: 1.2rem;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 5rem;
+    
+        background: rgb(15, 7, 20);
+        color: white;
+        border: none;
+    }
 
 }
 
