@@ -6,9 +6,7 @@
 }
 
 body{
-    margin-left:5rem;
-    margin-right: 5rem;
-    margin-top: 2rem;
+    margin:5rem;
     background-color: rgb(15, 7, 20);
     color: rgb(200, 196, 196);
 }
@@ -112,4 +110,68 @@ footer{
 }
 footer a{
     color: rgba(87, 25, 120, 0.96);;
+}
+@media screen and (min-width:768px) {
+    .links{
+        margin-left: 7rem;
+        gap: 1rem;
+    }
+    .hero-section{
+        gap: 1rem;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero p{
+        font-size: 0.8rem;
+    }
+    .hero img{
+        height: 80%;
+    }
+    body{
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width:320px) {
+    body{
+        margin: 2rem;
+    }
+    .links{
+        display: none;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .hero{
+        width: 100%;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero p{
+        font-size: 0.9rem;
+    }
+    .hero button{
+        margin-left: 6rem;
+    }
+
+    .mywork-section h1{
+        font-size: 2rem;
+    }
+    .mywork-section p{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .image-row{
+        gap: 1rem;
+    }
+    .image-row img{
+        width: 25%;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
 }
