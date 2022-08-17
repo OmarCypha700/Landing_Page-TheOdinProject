@@ -120,7 +120,7 @@ footer a{
     border: none;
 }
 
-/* Hamvurger menu */
+/* Hamburger menu */
 
 .hamburger{
     position: relative;
@@ -453,6 +453,25 @@ footer a{
         color: rgba(87, 25, 120, 0.96);;
     } 
 
+    .calltoaction{
+        width: 100%;
+        background-color: rgba(87, 25, 120, 0.96);
+        padding: 2rem;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+    
+    .calltoaction button{
+        padding: 1.2rem;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 5rem;
+    
+        background: rgb(15, 7, 20);
+        color: white;
+        border: none;
+    }
 }
 
 
